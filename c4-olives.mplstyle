@@ -1,0 +1,25 @@
+# This file is defining default blue C4ADS fonts, colors, and line types.
+
+# Stadard Figure Size
+figure.figsize: 16, 9
+
+# Font Properties
+font.family: Century-Gothic
+font.size: 10
+
+# Axes properties
+axes.linewidth: 2
+axes.labelpad: 10
+
+# Setting olive colorcycle
+axes.prop_cycle: cycler(color=["686B30", '8E894E', 'B2AC83', 'D7D3BF'])
+
+# Setting ticker and grid colors
+xtick.color: black
+ytick.color: black
+grid.color: black
+axes.facecolor: white
+axes.edgecolor: black
+axes.labelcolor: black
+savefig.facecolor: white
+savefig.edgecolor: white
